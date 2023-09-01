@@ -116,6 +116,8 @@ The following patterns might be relevant when implementing this pattern:
 
 [This blog post](https://particular.net/blog/you-dont-need-ordered-delivery) describes different ways of handling messages that arrive out of order.
 
+[Chorepgraphed or orchestrated workflows](https://docs.particular.net/architecture/workflows) can be used to coordinate business processes that involve multiple services.
+
 ## Related resources
 
 - The [Event-driven architecture style](../guide/architecture-styles/event-driven.yml) is an architecture style that uses pub/sub messaging.

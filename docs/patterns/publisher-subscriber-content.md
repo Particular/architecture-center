@@ -116,7 +116,7 @@ The following patterns might be relevant when implementing this pattern:
 
 [This blog post](https://particular.net/blog/you-dont-need-ordered-delivery) describes different ways of handling messages that arrive out of order.
 
-[Chorepgraphed or orchestrated workflows](https://docs.particular.net/architecture/workflows) can be used to coordinate business processes that involve multiple services.
+[Chorepgraphed or orchestrated workflows](https://docs.particular.net/architecture/workflows) can be used to coordinate events implementing more complex business processes involving multiple services.
 
 ## Related resources
 

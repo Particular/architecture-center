@@ -166,3 +166,5 @@ private bool IsTransient(Exception ex)
 - For most Azure services, the client SDKs include built-in retry logic. For more information, see [Retry guidance for Azure services](../best-practices/retry-service-specific.md).
 
 - [Circuit Breaker pattern](./circuit-breaker.yml). If a failure is expected to be more long lasting, it might be more appropriate to implement the Circuit Breaker pattern. Combining the Retry and Circuit Breaker patterns provides a comprehensive approach to handling faults.
+
+- [Recoverability in message-driven systems](https://docs.particular.net/architecture/recoverability) uses automated retries to protect publishers from subscriber errors.
